@@ -16,10 +16,9 @@ body{
    grid-row-gap: 43px;
    background-color: #ffffff;
    height: 808px;
-   padding-top: 65px;
-   padding-bottom: 65px;
-   padding-left: 117px;
-   padding-right: 117px;
+    padding: 65px 117px 65px 117px;
+    box-shadow: 2px 2px 50px #9c9c9c;
+
 }
 .body > div:first-of-type{
    align-content: center;

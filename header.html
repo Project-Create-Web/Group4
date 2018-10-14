@@ -7,7 +7,11 @@
     <title>Header</title>
 </head>
 <style>
-    .grid-container{
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .header{
         display: grid;
         /* padding: 10px 1px;
         border: solid 1px rgb(201, 184, 184);
@@ -15,9 +19,11 @@
         height:  50px;
         width: 790px;
         margin: 20px 20px; */
+        grid-template-rows: 138px 340px;
     }
     .first-border{
         height: 88px;
+        padding: 25px 58px;
     }
 
     .border-create{
@@ -48,18 +54,31 @@
     /* font-style: normal; */
     color: #D8A235;
 }
-
+a:hover{
+    color: #D8A235;
+}
 
 #none{
     border-right: none;
 }
 
+
+.second-border{
+    display: grid;
+    grid-template-rows: 304px 36px;
+}
+.second-border > div:first-of-type{
+    background: linear-gradient(#242424d8,#242424d8),url('images/background-image.jpg');
+}
+.second-border > div:last-of-type{
+    background-color: #D8A235;
+}
 </style>
 <body>
-    <div class="grid-container">
-        <section class="first-border">
+    <div class="header">
+        <nav class="first-border">
             <div class="border-create" >
-                <img  src="logo.png"  >
+                <img  src="images/logo.png">
                 <a id="none"></a>
                 <a href="home.html">HOME</a> 
                 <a href="services.html">SERVICES</a> 
@@ -67,6 +86,10 @@
                 <a href="public-relations.html">PUBLIC RELATIONS</a> 
                 <a href="contact-us.html">CONTACT US</a> 
             </div>
-        </section>
+        </nav>
+        <div class="second-border">
+            <div></div>
+            <div></div>
+        </div>
     </div>
 </body>

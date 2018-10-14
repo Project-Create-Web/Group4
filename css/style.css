@@ -1,14 +1,11 @@
-*{
-   margin: 0px;
-}
 body{
-   background-color: #ccc;
+   /* background-color: #ccc; */
    font-size: 18px;
 }
 .main{
    height: 1510px;
    display: grid;
-   grid-template-columns: auto;
+   grid-template-rows:  478px 804px 228px;
 }
 .body{
    display: grid;

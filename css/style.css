@@ -13,8 +13,9 @@ body{
    grid-row-gap: 43px;
    background-color: #ffffff;
    height: 808px;
-    padding: 65px 117px 65px 117px;
-    box-shadow: 2px 2px 50px #9c9c9c;
+   padding: 65px 117px 65px 117px;
+   box-shadow: 1px 1px 20px #9c9c9c;
+   /* background: linear-gradient(#c9c9c94b, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff); */
 
 }
 .body > div:first-of-type{
@@ -92,6 +93,11 @@ button{
 	border: 1px solid #F3AA19;
 	border-radius: 10px;
 	background-color: #ffffff;
+}
+button:hover{
+   background-color: #F3AA19;
+   color: #ffffff;
+   
 }
 input{
 	border: 1px solid #cacaca;

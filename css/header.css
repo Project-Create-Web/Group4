@@ -4,16 +4,20 @@
     }
     .header{
         display: grid;
+        /* padding: 10px 1px;
+        border: solid 1px rgb(201, 184, 184);
+        border-width: 1px 1px;
+        height:  50px;
+        width: 790px;
+        margin: 20px 20px; */
         grid-template-rows: 138px 340px;
         position: relative;
     }
     .first-border{
         height: 88px;
-        padding: 25px 56px;
-        position: fixed;
-        width: 100%;
+        padding: 25px 58px;
+        /* position: fixed; */
         background-color: #fff;
-        z-index: 3;
     }
 
     .border-create{
@@ -43,7 +47,7 @@
     border-right: none;
     /* font-family: Roboto; */
     /* font-style: normal; */
-    color: #D8A235;
+    /* color: #D8A235; */
 }
 a:hover{
     color: #D8A235;
@@ -74,7 +78,7 @@ a:hover{
     background-image: url('../images/Polygon.png');
     background-repeat: no-repeat;
     background-position-x: center;
-    z-index: 1;
+    z-index: 3;
     width: 90%;
     height: 100%;
     position: absolute;
@@ -83,12 +87,5 @@ a:hover{
     top: 36px;
     left: 70px;
 }
-#second{
-    display: grid;
-    grid-template-rows: 472px 36px;
-    background-image: url("../images/home.png");
-}
 
-/* #home{
-    background-image: url("../images/")
-} */
+

@@ -1,0 +1,142 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+* {
+    box-sizing: border-box;
+}
+.container{
+    margin: 1px;
+    width: 100%;
+}
+body{
+    width: auto;
+}
+#view{
+    color: goldenrod;
+}
+a{
+    text-decoration-line: none;
+}
+#font{
+    font-size: 25px;
+    font-family: cursive
+}
+.logo{
+    border-radius: 50%;
+}.about{
+    
+}
+.con{
+    height: 200px;
+    background-color: black;
+}
+#head{
+    color:white;
+     size:40px; 
+     text-align:center; 
+     padding-top:60px;
+}
+section{
+    display:grid;
+}
+nav {
+    text-decoration-style: none;
+}
+nav ul li{
+    padding-left:600px; 
+    float: right;
+    margin-bottom: 0.8px;
+    /* text-decoration-style: double; */
+}
+nav ul li a{
+    list-style-type: upper-roman;
+    font-size: 23px;
+}
+h1{
+    text-align: center;
+}
+b{
+color:goldenrod;
+}
+nav{
+    display: grid;
+    text-decoration: none;
+}
+#cent{
+    padding-left: 27px;
+}
+#bon{
+    /* margin-right: 10px; */
+}
+section{
+    /* border-block-end: black; */
+    float: left;
+    margin: 82px;
+}
+#center{
+    text-align:center;
+}
+
+@media screen and (min-width: 480px) {
+    
+    /* .good{
+        size: unset;
+        position: relative;
+    } */
+    
+}
+.good{
+    display:grid;
+    grid-template-columns: auto auto;
+    size: unset;   
+}
+nav ul li a{
+    margin: 10px;
+    text-align: right;
+    color: black;
+    padding-bottom: 30px;
+}
+#feel{
+    color: rgb(73, 72, 72);
+    /* position: inherit; */
+    display: grid;
+
+}
+#grey{
+    color: rgb(70, 68, 68);
+}
+nav{
+    display: inline;
+}
+#notin{
+    background-color: goldenrod;
+}
+.col-12{
+    background-color: gray;
+    /* height: 30px; */
+}
+#real{
+    text-align: right;
+}
+p{
+    font-size: 24px;
+}
+.floating-box {
+    float: left;
+    width: 200px;
+    height: 300px;
+    margin: 50px;
+    border: 3px ridge cornsilk;  
+}
+footer{
+    float: left;
+}

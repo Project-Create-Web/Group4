@@ -31,4 +31,8 @@ p{
 .body > div:last-of-type {
     display: grid;
     grid-template-columns: 297px 297px 297px 297px;
+    padding: 40px;
+}
+section{
+    padding: 40px;
 }

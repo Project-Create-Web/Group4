@@ -14,7 +14,7 @@
   display: grid;
   grid-template-rows: 637px 225px;
   padding: 100px;
-  background: linear-gradient(to bottom left, #c4c4c4, #ffffff)
+  background: linear-gradient(to bottom left, #c4c4c4, #ffffff);
 }
 
 .fir{

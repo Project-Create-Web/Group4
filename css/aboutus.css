@@ -1,0 +1,38 @@
+.main{
+    display: grid;
+    grid-template-rows: 478px 2048px 228px;
+}
+.body{
+    display: grid;
+    width: 100%;
+    grid-template-rows: 382px 1031px 634px;
+}
+.body > div:first-of-type {
+    padding: 90px 384px 0px 384px;
+}
+
+.body > :nth-child(2){
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.body > :nth-child(2) > p{
+    height: 516px;
+}
+.body > :nth-child(2) > img{
+    width: 100%;
+     height: 516px;
+}
+
+p{
+    font-size: 24px;
+}
+
+.body > div:last-of-type {
+    display: grid;
+    grid-template-columns: 297px 297px 297px 297px;
+    padding: 40px 0px 148px 0px;
+}
+section{
+    padding: 60px;
+}

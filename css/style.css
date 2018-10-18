@@ -1,14 +1,11 @@
-*{
-   margin: 0px;
-}
 body{
-   background-color: #ccc;
+   /* background-color: #ccc; */
    font-size: 18px;
 }
 .main{
    height: 1510px;
    display: grid;
-   grid-template-columns: auto;
+   grid-template-rows:  478px 804px 228px;
 }
 .body{
    display: grid;
@@ -16,10 +13,10 @@ body{
    grid-row-gap: 43px;
    background-color: #ffffff;
    height: 808px;
-   padding-top: 65px;
-   padding-bottom: 65px;
-   padding-left: 117px;
-   padding-right: 117px;
+   padding: 65px 117px 65px 117px;
+   box-shadow: 1px 1px 20px #9c9c9c;
+   /* background: linear-gradient(#c9c9c94b, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff); */
+
 }
 .body > div:first-of-type{
    align-content: center;
@@ -49,7 +46,7 @@ section > div:last-of-type::after{
    position: absolute;
    width: 100%;
    height: 100%;
-   background: url("background.png");
+   background: url("../images/background.png");
    opacity: 0.1;
    z-index: -1;
    box-shadow: 5px 5px 10px #4e4e4e;
@@ -97,6 +94,11 @@ button{
 	border-radius: 10px;
 	background-color: #ffffff;
 }
+button:hover{
+   background-color: #F3AA19;
+   color: #ffffff;
+   
+}
 input{
 	border: 1px solid #cacaca;
 	border-radius: 3px;
@@ -125,13 +127,13 @@ textarea{
     color: #f2f2f2;
 }
 #input{
-   background-image: url('locate.png');
+   background-image: url('../images/locate.png');
 }
 #input1 {
-    background-image: url('phone-small.png');
+    background-image: url('../images/phone-small.png');
 }
 #input2 {
-    background-image: url('mail-light.png');
+    background-image: url('../images/mail-light.png');
 }
 
 .caps{

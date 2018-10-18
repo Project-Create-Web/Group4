@@ -19,10 +19,10 @@
 
     .border-create{
         display: grid;
-        border: hidden 1px ;
+        border: solid 1px ;
         grid-template-columns: 100px 50px 100px 100px 100px 160px 90px; 
         max-width:600px;
-        height: 39px;
+        height: 42px;
         text-align: center; 
         font-style: normal;
         padding: 10px 50px;
@@ -38,6 +38,8 @@
     Line-Height: 18px; 
 }
 
+
+
    .border-create a:last-of-type{
     border-right: none;
     font-family: Roboto;
@@ -45,9 +47,13 @@
     color: #D8A235;
 }
 
-
 #none{
     border-right: none;
+}
+#style-logo{
+padding: 1px 4px; /* top-bottom right-left*/
+width: 80px;
+height:50px;
 }
 
 </style>
@@ -55,7 +61,7 @@
     <div class="grid-container">
         <section class="first border">
             <div class="border-create" >
-                <img  src="logo.png"  >
+                <img id="style-logo" src="logo.png" alt="logo" width="100px " >
                 <a id="none"></a>
                 <a href="home">HOME</a> 
                 <a href="services">SERVICES</a> 

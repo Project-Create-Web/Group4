@@ -12,10 +12,10 @@ body{
    grid-template-rows: 28px 552px;
    grid-row-gap: 43px;
    background-color: #ffffff;
-   height: 808px;
+   /* height: 808px; */
    padding: 65px 117px 65px 117px;
    box-shadow: 1px 1px 20px #9c9c9c;
-   /* background: linear-gradient(#c9c9c94b, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff); */
+   /* background: linear-gradient(#e71414ea, #ffffff, #ffffff, #16e928, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff); */
 
 }
 .body > div:first-of-type{
